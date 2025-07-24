@@ -79,6 +79,77 @@ body{
 .banner-img img{
     width: 100%;
 }
+/* plant section */
+.plant-section{
+  margin-bottom: 210px;
+}
+.plant-text {
+  margin-top: 120px;
+  margin-bottom: 49px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.plant-text h1 {
+  font-family: "Noto Serif", serif;
+  font-size: 3.1rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.plant-text p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Inter", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  width: 77%;
+  height: 53px;
+}
+.container-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 100%;
+}
+.card {
+  text-align: center;
+}
+.card button {
+  background-color: rgb(233, 90, 8);
+  color: white;
+  border: none;
+  padding: 26px 50px 26px 50px;
+  width: 100%;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.card button:hover {
+  background-color: #d35400;
+}
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h3 {
+  color: rgb(17, 17, 17);
+  font-family: "Inter", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin: 30px 69px 20px 69px;
+}
+
+.card p {
+  color: rgb(17, 17, 17);
+  font-family: "Inter", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
 @media screen and (max-width:576px) {
      .nav-links{
         display: none;
@@ -103,10 +174,32 @@ body{
     font-size: 28px;
     width: 65%;
   }
-  .banaer-para {
+  .banner-para {
     font-size: 16px;
   }
+   .plant-text p {
+    width: 100%;
   }
+  .plant-text {
+    margin-top: 65px;
+    margin-bottom: 50px;
+    padding-bottom: 80px;
+  }
+  .container-card {
+    grid-template-columns: repeat(2, calc((100% - 20px) / 2));
+    gap: 20px;
+    padding-left: 10px;
+  }
+  .card h3 {
+    margin: 0px;
+    margin-top: 30px;
+    padding: 0px;
+  }
+  .card button {
+    padding: 15px 0px;
+  } 
+}
+  
 
     
      
