@@ -291,6 +291,116 @@ body{
   margin-bottom: 19px;
   text-decoration: underline;
 }
+/* Join Section Styles */
+.join-section {
+  background-image: url("../assets/news-letter-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1440px;
+  height: 533px;
+  margin: auto;
+  text-align: center;
+  padding: 195px 305px;
+  margin-bottom: 50px;
+}
+.input-button-parent {
+  display: flex;
+  justify-content: center;
+}
+.join-section h1 {
+  color: rgb(255, 255, 255);
+  font-family: "Noto Serif", serif;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 23px;
+}
+.input-button-parent input {
+  padding: 8px 20px 8px 20px;
+  width: 644px;
+  height: 50px;
+  border: none;
+}
+.input-button-parent input::placeholder {
+  font-family: "Inter", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+}
+.input-button-parent input:focus {
+  outline: none;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.input-button-parent button {
+  background: rgb(233, 90, 8);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  width: 186px;
+  height: 50px;
+}
+ .join-section h1 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .Footer-Section {
+  display: flex;
+  gap: 110px;
+
+  margin-bottom: 50px;
+}
+/* Footer Section style */
+
+.footer-logo {
+  width: 350px;
+}
+.footer-logo p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 16px;
+}
+.footer-all-link-parent {
+  display: flex;
+  gap: 110px;
+  text-decoration: none;
+}
+.footer-all-link-parent a {
+  color: rgb(107, 114, 128);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
+}
+.home-part {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.features-part {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.footer-icon {
+  display: flex;
+  gap: 20px;
+  margin-left: 20px;
+}
+.icon-twitter {
+  padding-top: 10px;
+}
+
+
+
 @media screen and (max-width:576px) {
      .nav-links{
         display: none;
@@ -397,6 +507,36 @@ body{
   }
   .latest-deal-section {
     margin-bottom: 40px;
+  }
+   .input-button-parent button {
+    width: 103px;
+  }
+  .input-button-parent input {
+    width: 218px;
+  }
+  .join-section {
+    height: 275px;
+    margin: auto;
+    padding: 110px 35px 64px 35px;
+    margin-bottom: 50px;
+  }
+  .join-section h1 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .Footer-Section {
+    flex-direction: column;
+    margin: 0px 16px 0px 16px;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  .footer-all-link-parent {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-icon {
+    margin-left: 0px;
   }
 }
 
